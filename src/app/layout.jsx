@@ -5,8 +5,7 @@ import { NuqsAdapter } from "nuqs/adapters/next/app";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Admin | Trivixx",
-  description: "View Customers, Insights, Analytics, and more.",
+  title: "NextJS URL as State",
 };
 
 export default function RootLayout({ children }) {
